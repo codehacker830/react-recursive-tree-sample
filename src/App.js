@@ -34,7 +34,7 @@ const defaultState = {
 function App() {
     return (
         <div>
-            <Comment {...defaultState} level = {0}/>
+            <Comment {...defaultState}/>
         </div>
     );
 }
